@@ -7,6 +7,7 @@
 // @grant    none
 // @match        https://*.quora.com/*
 // @match        http://*.quora.com/*
+// @license MIT
 // ==/UserScript==
 (() => {
     const sponsorRemover = setInterval(removeSponsor, 1000);
