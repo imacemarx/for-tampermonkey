@@ -7,6 +7,8 @@
 // @description:zh 自动移除列表里面的广告帖子（带sponsored标识的）
 // @author       acemarx
 // @grant    none
+// @exclude https://*.quora.com/robots.txt?upapi=true
+// @exclude http://*.quora.com/robots.txt?upapi=true
 // @match        https://*.quora.com/*
 // @match        http://*.quora.com/*
 // @license MIT
